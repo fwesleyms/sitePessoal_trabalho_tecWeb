@@ -7,11 +7,9 @@ p{
 
 h1{
 
-	color: #292EDD;
-	font-size: 50px;
+	color: #33b5e5;
+	font-size: 2em;
 	font-weight: bold;
-	text-align: left;
-	padding-top: 60px;
 	margin-left:20px;
 	font-family: 'Exo', sans-serif;
 }
@@ -19,7 +17,7 @@ h1{
 h2.container{
 	font-size: 30px;
 	font-weight: bold;
-	color: #292EDD;
+	color: #33b5e5;
 	margin-top: 28px;
 }
 
@@ -28,7 +26,7 @@ h2:after{
 	display: block;
 	width: 60px;
 	height: 3px;
-	background: #292EDD;
+	background: #33b5e5;
 	margin: 3px;
 	margin-bottom: 28px;
 }
@@ -41,7 +39,7 @@ h3{
 
 button{
 	color:  rgba(255, 255, 255, 0.9);
-	background: #292EDD;
+	background: #33b5e5;
 	border: 2px solid white;
 	font-weight: bold;
 	float: right;
@@ -49,6 +47,7 @@ button{
 	margin-right: 35px;
 	padding: 5px 35px 5px 35px;
 	font-weight: bolder;
+	border-radius: 4px;
 }
 
 .logo{
@@ -66,12 +65,12 @@ span{
 
 header {
 	text-align: right;
-	background: #292EDD;
+	background: #33b5e5;
 }
 
 ul a li{
 	display: inline-block;
-	font-size: 18px;
+	font-size: 14px;
 	/*font-weight: bold;*/
 	font-family: sans-serif;
 	padding: 6px;
@@ -80,7 +79,7 @@ ul a li{
 
 ul a li.menu-ativo{
 	display: inline-block;
-	font-size: 18px;
+	font-size: 14px;
 	font-weight: bolder;
 	/*color: gray;*/
 	text-decoration: underline;
@@ -100,13 +99,21 @@ li:hover {
 	width: 100%;
 	margin-top: 12px;
 	background: url("../img/cover.jpg") no-repeat center;
-	height: 450px;
+	background-size: auto 100vh;
+	height: 100vh;
 	margin-bottom: 16px;
+	text-align: center;
 
 }
 
+.photo{
+	width: 200px;
+	text-align: center;
+	border-radius: 7px;
+}
+
 .areas{
-	background-color: #292EDD;
+	background-color: #33b5e5;
 	text-align: center;
 	padding-left: 14px;
 	margin-bottom: 16px;
@@ -159,7 +166,7 @@ li:hover {
 
 /*Roda-pé*/
 .redes{
-	color: #292EDD;
+	color: #33b5e5;
 	display: inline-block;
 	font-size: 16px;
 	float: right;
@@ -168,11 +175,17 @@ li:hover {
 	width: 220px;
 }
 
-.redes ul a li{
+
+.redes ul a li, .redes ul a li:hover {
 	width: 30px;
 	height: 30px;
 	margin-left: 6px;
 }
+
+.redes ul a li:hover{
+	opacity: 0.8;
+}
+
 
 
 footer.container{
@@ -185,14 +198,14 @@ footer.container{
 .rodape{
 	border-top: solid;
 	border-width: 3px;
-	border-color: #292EDD;
+	border-color: #33b5e5;
 	margin-top: 20px;
 	padding-top: 20px;
 	padding-bottom: 10px;
 }
 
 .rodape p{
-	color: #292EDD;	
+	color: #33b5e5;	
 	font-weight: bold;
 	font-size: 20px;
 }
@@ -202,7 +215,6 @@ footer.container{
 }
 
 section	{
-	background: #292EDD;
 	padding:  12px;
 	margin-bottom: 16px;
 }
@@ -219,14 +231,14 @@ section ul{
 	list-style-type:square;
 	border: solid;
 	border-width: 2px;
-	border-color: #292EDD;
+	border-color: #33b5e5;
 	border-radius: 2px;
 	padding: 3px;
 	margin-left: 40px;
 }
 
 .contato{
-	background-color: #292EDD;
+	background-color: #33b5e5;
 	padding: 12px;
 	display: block;
 }
@@ -249,6 +261,8 @@ section ul{
 .contato form input{
 	color: blue;
 	padding: 3px;
+	border-radius: 4px;
+	background-color: white;
 }
 
 .form{
@@ -281,8 +295,10 @@ form fieldset textarea{
 	width: 220px;
 	background: rgba(255, 255, 255, 0.9);
 	font-weight: bold;
-	color: #292EDD;
-	border: 2px solid white;
+	color: #33b5e5;
+	border:none;
+	border-radius: 4px;
+	background-color: white;
 }
 
 .endereco{
@@ -366,11 +382,11 @@ form fieldset textarea{
 	height: 140px;
 	text-align: center;
 	padding-top: 25px;
-	border: 2px solid #292EDD;
+	border: 2px solid #33b5e5;
 }
 
 .quadro-baixo{
-	background-color: #292EDD;
+	background-color: #33b5e5;
 	color: white;
 	text-align: center;
 	height: 40px;
@@ -431,10 +447,10 @@ form fieldset textarea{
 /*CSS do Saiba Mais*/
 
 .quadro-saiba-mais{
-	background-color: #292EDD;
+	background-color: #33b5e5;
 	line-height: 1.5em;
-	padding: 18px 18px 18px 18px;
-	height: 215px;
+	padding: 14px 18px 18px 18px;
+	height: 14em;
 
 }
 
@@ -448,7 +464,7 @@ div ul li, div ul li:hover{
 /*CSS do Contato*/
 
 button:hover{
-	color: blue;
+	color: #33b5ec;
 	background-color: white;
 }
 
@@ -456,4 +472,22 @@ button:hover{
 	color: white;
 	padding:none;
 	margin:none;
+}
+
+textarea{
+	resize: none;
+}
+
+.modifica-altura{
+	height: auto;
+	padding-top: 0;
+}
+
+.certificados ul li, .certificados ul li:hover{
+	color: black;
+	border: none;
+}
+
+.certificados ul{
+	border: 2px solid #0099CC;
 }
